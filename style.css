@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.a{
+    height: 150vh;
+    background: #355C7D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.b{
+    height: 100vh;
+    background: #EB5757;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #000000, #EB5757);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #000000, #EB5757); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+nav{
+    background-color: rgb(3, 3, 29);
+   height: 12vh;
+   display: flex;
+   align-items: center;
+   position: sticky;
+   top: 0px;
+
+}
+nav a{
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(241, 210, 210);
+    font-size: 20px;
+}
+.chat{
+    background-color: green;
+height: 55px;
+width: 55px;
+border-radius: 40px 40px 5px 40px;
+position:fixed;
+bottom: 30px;
+right: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.chat i{
+    font-size: 25px;
+    color: white;
+}
+    .btn{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 200px;
+background-color: aqua;
+    }
+    button{
+        height: 55px;
+        width: 55px;
+        font-size: 25px;
+    }
